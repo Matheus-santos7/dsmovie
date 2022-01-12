@@ -1,0 +1,7 @@
+.dsmovie-stars-container{
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
