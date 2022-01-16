@@ -5,63 +5,32 @@ function Listing() {
 
     return (
         <>
-            <Pagination />
-
+        <Pagination />
+        
             <div className="Container">
-                <div className="row">
-                    <div className="col-sm-6 col-lg-4 col-xl-3 mb-3">
+                <div className="row align-items-start">
+                    <div className="col-sm-6 col-lg-4 col-xl-4 mb-3">
                         <MovieCard />
                     </div>
-                    <div className="col-sm-6 col-lg-4 col-xl-3 mb-3">
+                    <div className="col-sm-6 col-lg-4 col-xl-4 mb-3">
                         <MovieCard />
                     </div>
-                    <div className="col-sm-6 col-lg-4 col-xl-3 mb-3">
+                    <div className="col-sm-6 col-lg-4 col-xl-4 mb-3">
                         <MovieCard />
                     </div>
-                    <div className="col-sm-6 col-lg-4 col-xl-3 mb-3">
+                    <div className="col-sm-6 col-lg-4 col-xl-4 mb-3">
                         <MovieCard />
                     </div>
-                    <div className="col-sm-6 col-lg-4 col-xl-3 mb-3">
+                    <div className="col-sm-6 col-lg-4 col-xl-4 mb-3">
                         <MovieCard />
                     </div>
-                    <div className="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                        <MovieCard />
-                    </div>
-                    <div className="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                        <MovieCard />
-                    </div>
-                    <div className="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                        <MovieCard />
-                    </div>
-                    <div className="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                        <MovieCard />
-                    </div>
-                    <div className="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                        <MovieCard />
-                    </div>
-                    <div className="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                        <MovieCard />
-                    </div>
-                    <div className="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                        <MovieCard />
-                    </div>
-                    <div className="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                        <MovieCard />
-                    </div>
-                    <div className="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                        <MovieCard />
-                    </div>
-                    <div className="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                        <MovieCard />
-                    </div>
-                    <div className="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                        <MovieCard />
-                    </div>
-                    <div className="col-sm-6 col-lg-4 col-xl-3 mb-3">
+                    <div className="col-sm-6 col-lg-4 col-xl-4 mb-3">
                         <MovieCard />
                     </div>
                 </div>
             </div>
+
+            
         </>
     );
 }
